@@ -1,27 +1,29 @@
-# Título do Projeto (ex: Estação Meteorológica com ESP32)
+# Título do Projeto : Acionamento LED's com joystick
+Caio Peruca e 
+Emanuel Sotana
 
 ## 📝 Descrição Técnica
 
-Este repositório contém o desenvolvimento de um sistema embarcado para [objetivo do projeto]. O projeto foi concebido como parte dos requisitos avaliativos da disciplina SM66A - Sistemas Microcontrolados.
+Este repositório contém o desenvolvimento de um sistema embarcado para utilizaçao do joystick para acionar diferentes LED's. O projeto foi concebido como parte dos requisitos avaliativos da disciplina SM66A - Sistemas Microcontrolados.
 
 ## ✨ Funcionalidades Implementadas (mínimo de 1)
 
-- [Funcionalidade 1]
+- [Acionar um LED em cada direçao do joystick]
 
 ## ✨ Periféricos Utilizados (mínimo de 4)
 
-- [Periférico 1]
-- [Periférico 2]
-- [Periférico 3]
-- [Periférico 4]
+- [ADC: Conversor analogico digital para o sinais analogicos dos eixos x e y do joystick]
+- [GPIO: Portas digitais de saida para acionamento dos LED's]
+- [GPIO: Porta digitais de entrada para ler o joystic]
+- [Timer ou Interrupção]
 
 
 ## 🛠️ Hardware e Componentes (mínimo 1)
 
 * Microcontrolador: TM4C123G
-* Sensores: [Modelo, e.g., DHT22]
-* Atuadores: [Modelo, e.g., Display OLED SSD1306]
-* Outros componentes...
+* Sensores: [Joystick modelo: boosterpack mk2 ]
+* Atuadores: [4 LED's, resistores]
+* Protoboard e jumperes
 
 ## ⚙️ Procedimento de Montagem e Execução
 
