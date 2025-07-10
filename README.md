@@ -32,7 +32,7 @@ Este repositório contém o desenvolvimento de um sistema embarcado para utiliza
 *Esta seção apresenta as instruções para reproduzir o projeto utilizando a placa TM4C123GH6PM.*
 
 1. **📐 Diagrama Elétrico:**  
-   O esquema de interconexão dos componentes pode ser acessado no seguinte arquivo: [`docs/esquema.pdf`](docs/esquema.pdf)
+   
 
 2. **💻 Configuração do Ambiente:**  
    - Instale o [Keil µVision](https://www.keil.com/demo/eval/arm.htm) ou [Code Composer Studio](https://www.ti.com/tool/CCSTUDIO)  
