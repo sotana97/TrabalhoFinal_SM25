@@ -27,11 +27,26 @@ Este repositório contém o desenvolvimento de um sistema embarcado para utiliza
 
 ## ⚙️ Procedimento de Montagem e Execução
 
-*(Esta seção deve ser detalhada ao longo do desenvolvimento)*
+## ⚙️ Procedimento de Montagem e Execução
 
-1.  **Diagrama Elétrico:** O esquema de interconexão dos componentes está disponível em `docs/esquema.pdf`.
-2.  **Configuração do Ambiente:** Detalhamento das bibliotecas e configurações da IDE necessárias.
-3.  **Compilação e Upload:** Instruções para compilar o firmware e transferi-lo para o microcontrolador.
+*Esta seção apresenta as instruções para reproduzir o projeto utilizando a placa TM4C123GH6PM.*
+
+1. **📐 Diagrama Elétrico:**  
+   O esquema de interconexão dos componentes pode ser acessado no seguinte arquivo: [`docs/esquema.pdf`](docs/esquema.pdf)
+
+2. **💻 Configuração do Ambiente:**  
+   - Instale o [Keil µVision](https://www.keil.com/demo/eval/arm.htm) ou [Code Composer Studio](https://www.ti.com/tool/CCSTUDIO)  
+   - Importe o projeto para a IDE escolhida  
+   - Verifique se os drivers da Tiva C estão instalados corretamente (TM4C123GH6PM)
+
+3. **🔧 Compilação e Upload:**  
+   - Compile o código fonte no ambiente de desenvolvimento  
+   - Conecte a placa via USB  
+   - Realize o upload do firmware para a Tiva C utilizando o botão de "Load" na IDE  
+   - Após o carregamento, o sistema estará pronto para execução.
+
+> 💡 **Dica:** Verifique se a alimentação da placa e os componentes estão corretamente conectados antes de ligar o sistema.
+
 
 ## 🚀 Cronograma e Evolução (Roadmap)
 
